@@ -1,0 +1,41 @@
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("5b750c114748588debb5d648"),
+        "firstname" : "Ruruja",
+        "lastname" : "A.Kulkarni",
+        "email" : "rutujaK@gmail.com",
+        "address" : "B4-202, BlueRidge, Hinjewadi Pune",
+        "contact" : "07552465871",
+        "username" : "rutuk",
+        "password" : "4561"
+}
+{
+        "_id" : ObjectId("5b750c924748588debb5d64a"),
+        "firstname" : "Archie",
+        "lastname" : "Jobard",
+        "email" : "archieJ@gmail.com",
+        "address" : "B10-902, BlueRidge, Hinjewadi Pune",
+        "contact" : "075524658571",
+        "username" : "archieJ",
+        "password" : "37678cvhhdjd"
+}
+{
+        "_id" : ObjectId("5b7508de4748588debb5d646"),
+        "firstname" : "Neha",
+        "lastname" : "Nema",
+        "email" : "nehanm24@gmail.com",
+        "address" : "B7-702, BlueRidge, Hinjewadi Pune",
+        "contact" : "07552467621",
+        "username" : "nehanm",
+        "password" : "1234"
+}
+{
+        "_id" : ObjectId("5b750c924748588debb5d649"),
+        "firstname" : "Pramod",
+        "lastname" : "Rawate",
+        "email" : "promodR@gmail.com",
+        "address" : "B3-302, BlueRidge, Hinjewadi Pune",
+        "contact" : "075524668571",
+        "username" : "promodk",
+        "password" : "5136sad"
+}

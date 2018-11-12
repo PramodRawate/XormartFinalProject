@@ -1,0 +1,27 @@
+<div class="login-container">
+  <div class="login-page" id="logg">
+    <div>
+      <img class="brand-icon" src="../../assets/xormart.jpg" alt="Xormart Logo">
+    </div>
+    <br>
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="name" />
+        <input type="password" placeholder="password" />
+        <input type="text" placeholder="email address" />
+        <button>create</button>
+        <p class="message">Already registered?
+          <a href="#">Sign In</a>
+        </p>
+      </form>
+      <form class="login-form" #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin.value)">
+        <input type="text" placeholder="username" name="username" ngModel/>
+        <input type="password" placeholder="password" name="password" ngModel/>
+        <button>Login</button>
+        <p class="message">Not registered?
+          <a href="registration" (click)=registrationpage()>Create an account</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>

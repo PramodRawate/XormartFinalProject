@@ -1,0 +1,67 @@
+> db.product.find({"name":"product"}).pretty()
+> db.product.find({"category":"product"}).pretty()
+> db.product.find({"category":"Bakery"}).pretty()
+{
+        "_id" : ObjectId("5b750dfa4748588debb5d64b"),
+        "name" : "Bread",
+        "category" : "Bakery",
+        "price" : 20,
+        "description" : "Bread"
+}
+{
+        "_id" : ObjectId("5b754b7f4748588debb5d655"),
+        "name" : "Biscuits",
+        "category" : "Bakery",
+        "price" : 85,
+        "description" : "Originally an English, buttery shortbread biscuit. Now a specialty of Pune, India."
+}
+{
+        "_id" : ObjectId("5b754b7f4748588debb5d654"),
+        "name" : "Muffins",
+        "category" : "Bakery",
+        "price" : 40,
+        "description" : "Best Before 15-09-2018"
+}
+{
+        "_id" : ObjectId("5b754b7f4748588debb5d656"),
+        "name" : "Khari",
+        "category" : "Bakery",
+        "price" : 50,
+        "description" : "Wheat Flour,Sugar,Milk,Semolina, Edible Veg Oil, Sesame Seeds, Wheat Fibre, Salt, Yeast"
+}
+{
+        "_id" : ObjectId("5b792f08e0e16b16de568774"),
+        "name" : "Cheese - Mascarpone",
+        "category" : "Bakery",
+        "price" : 211,
+        "description" : "La Cremella Mascarpone is an extremely fresh - thick - velvety cream with a spreadable consistency.This delightful variant is 100% vegetarian and naturally sweet with a c
+reamy-tangy flavour.",
+        "quantity" : "200 gm"
+}
+{
+        "_id" : ObjectId("5b792ff8e0e16b16de568777"),
+        "name" : "Parle Rusk - Milk",
+        "category" : "Bakery",
+        "price" : 25,
+        "description" : "Parle premium milk rusk with real milk taste. Good with tea and crunchy time",
+        "quantity" : "1 Pack"
+}
+{
+        "_id" : ObjectId("5b792fbee0e16b16de568776"),
+        "name" : "Britannia Cakes - Choco Chill",
+        "category" : "Bakery",
+        "price" : 15,
+        "description" : "These 100% vegetarian treats literally melt in your mouth. Britannia is a brand that is well known in the world of confectionary treats like cakes, biscuits, cookies and
+even other savouries and snacks.",
+        "quantity" : "60 Gm"
+}
+{
+        "_id" : ObjectId("5b79306ce0e16b16de568778"),
+        "name" : "Amul Taaza Toned Milk",
+        "category" : "Bakery",
+        "price" : 60,
+        "description" : "Known for its dairy, confectionary and other products, Amul is one of the best brands in the Indian food industry. It brings in pure products that are also filled with fl
+avour and good health.",
+        "quantity" : "1 Ltr"
+}
+>

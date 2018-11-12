@@ -1,0 +1,67 @@
+> db.product.find({"category":"veg"}).pretty()
+{
+        "_id" : ObjectId("5b75118b4748588debb5d64d"),
+        "name" : "Onion",
+        "category" : "veg",
+        "price" : 39,
+        "description" : "Onion can fill your kitchen with a thick spicy aroma.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b75118b4748588debb5d64c"),
+        "name" : "Potato",
+        "category" : "veg",
+        "price" : 29,
+        "description" : "Fresho Potatoes are nutrient-dense",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b75118b4748588debb5d64e"),
+        "name" : "Tomato",
+        "category" : "veg",
+        "price" : 24,
+        "description" : "Tomato Hybrids are high-quality fruits compared to desi, local tomatoes. "
+}
+{
+        "_id" : ObjectId("5b792ad8abeb88130d63a161"),
+        "name" : "Ladies Finger",
+        "category" : "veg",
+        "price" : 20,
+        "description" : "Ladies' finger is a green vegetable with a tip at the end and a lighter green head, which is inedibe and to be thrown away. It tastes mild and slightly grassy.",
+        "quantity" : "500 Gm"
+}
+{
+        "_id" : ObjectId("5b75118b4748588debb5d64f"),
+        "name" : "Capsicum",
+        "category" : "veg",
+        "price" : 80,
+        "description" : "Leaving a moderately pungent taste on the tongue, Green capsicums, also known as green peppers are bell shaped, medium-sized fruit pods. They have thick and shiny skin wi
+th a fleshy texture inside. ",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b792cc7e0e16b16de568772"),
+        "name" : "Cabbage",
+        "category" : "veg",
+        "price" : 18,
+        "description" : "With a texture of crispness and juiciness the moment you take the first bite, cabbages are sweet and grassy flavoured with dense and smooth leafy layers.",
+        "quantity" : "500 Gm"
+}
+{
+        "_id" : ObjectId("5b792cf6e0e16b16de568773"),
+        "name" : "Brinjal",
+        "category" : "veg",
+        "price" : 36,
+        "description" : "A hybrid variety, Green round Brinjals are attractive glossy green coloured that are round to oval in shape. ",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b792b3ce0e16b16de568771"),
+        "name" : "Bottle Gourd/Dudhi Bhopla",
+        "category" : "veg",
+        "price" : 15,
+        "description" : "With the common household name 'Lauki', Bottle gourds come in different shapes and sizes. Considered as one of the healthiest vegetables around, the flesh of bottle gourd
+s are full of water and taste slightly bitter.",
+        "quantity" : "500 Gm"
+}
+>

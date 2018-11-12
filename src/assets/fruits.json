@@ -1,0 +1,193 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "_id": "5b750dfa4748588debb5d64b",
+      "name": "Bread",
+      "category": "Bakery",
+      "price": 20,
+      "description": "Bread"
+    },
+    {
+      "_id": "5b75118b4748588debb5d64d",
+      "name": "Onion",
+      "category": "veg",
+      "price": 39,
+      "description": "Onion can fill your kitchen with a thick spicy aroma.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b7543174748588debb5d651",
+      "name": "Pomegranate",
+      "category": "fruit",
+      "price": 99,
+      "description": "Pomegranate Kesar has a vibrant, soft and shiny ruby-red skin.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b7543174748588debb5d653",
+      "name": "Banana",
+      "category": "fruit",
+      "price": 40,
+      "description": "Relish the soft, buttery texture of Robusta bananas that are light green and have a great fragrance and taste",
+      "quantity": "12Pcs"
+    },
+    {
+      "_id": "5b754b7f4748588debb5d655",
+      "name": "Biscuits",
+      "category": "Bakery",
+      "price": 85,
+      "description": "Originally an English, buttery shortbread biscuit. Now a specialty of Pune, India."
+    },
+    {
+      "_id": "5b75118b4748588debb5d64c",
+      "name": "Potato",
+      "category": "veg",
+      "price": 29,
+      "description": "Fresho Potatoes are nutrient-dense",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b75118b4748588debb5d64e",
+      "name": "Tomato",
+      "category": "veg",
+      "price": 24,
+      "description": "Tomato Hybrids are high-quality fruits compared to desi, local tomatoes. "
+    },
+    {
+      "_id": "5b7543174748588debb5d650",
+      "name": "Apple",
+      "category": "fruit",
+      "price": 139,
+      "description": "The bright red coloured and heart shaped Washington apples are crunchy, juicy and slightly sweet.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b7543174748588debb5d652",
+      "name": "Pear",
+      "category": "fruit",
+      "price": 249,
+      "description": "Green Pear includes white or cream-colored flesh.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b754b7f4748588debb5d654",
+      "name": "Muffins",
+      "category": "Bakery",
+      "price": 40,
+      "description": "Best Before 15-09-2018"
+    },
+    {
+      "_id": "5b754b7f4748588debb5d656",
+      "name": "Khari",
+      "category": "Bakery",
+      "price": 50,
+      "description": "Wheat Flour,Sugar,Milk,Semolina, Edible Veg Oil, Sesame Seeds, Wheat Fibre, Salt, Yeast"
+    },
+    {
+      "_id": "5b7926891943a339959ddea9",
+      "name": "Orange",
+      "category": "fruit",
+      "price": 115,
+      "description": "An assortment of imported oranges, which make for an ideal gift during the festive season or even for making desserts and juices.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b79278c1943a339959ddeab",
+      "name": "Guava-Peru",
+      "category": "fruit",
+      "price": 100,
+      "description": "Savour the green guavas along with hard, pale yellow edible seeds. The off-white flesh is crunchy and mildly sweet with very good fragrance.",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b79286e1943a339959ddead",
+      "name": "Grapes - Red",
+      "category": "fruit",
+      "price": 99,
+      "description": "Ruby-coloured red globe grapes are uniquely large, round and good quality grapes. They have a crunchy skin, fleshy pulp and a pinkish tinge in colour. The grapes have mild sweetness and taste, but these grapes are not as tangy as flame seedless or as sweet as Thompson seedless.",
+      "quantity": "250 Gm"
+    },
+    {
+      "_id": "5b7928a81943a339959ddeae",
+      "name": "Kiwi - Green",
+      "category": "fruit",
+      "price": 34.5,
+      "description": "Kiwis are oval shaped with a brownish outer skin. The flesh is bright green and juicy with tiny, edible black seeds. With its distinct sweet-sour taste and a pleasant smell, it tastes like strawberry and honeydew melon. ",
+      "quantity": "3 Pcs"
+    },
+    {
+      "_id": "5b792ad8abeb88130d63a161",
+      "name": "Ladies Finger",
+      "category": "veg",
+      "price": 20,
+      "description": "Ladies' finger is a green vegetable with a tip at the end and a lighter green head, which is inedibe and to be thrown away. It tastes mild and slightly grassy.",
+      "quantity": "500 Gm"
+    },
+    {
+      "_id": "5b75118b4748588debb5d64f",
+      "name": "Capsicum",
+      "category": "veg",
+      "price": 80,
+      "description": "Leaving a moderately pungent taste on the tongue, Green capsicums, also known as green peppers are bell shaped, medium-sized fruit pods. They have thick and shiny skin with a fleshy texture inside. ",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b792cc7e0e16b16de568772",
+      "name": "Cabbage",
+      "category": "veg",
+      "price": 18,
+      "description": "With a texture of crispness and juiciness the moment you take the first bite, cabbages are sweet and grassy flavoured with dense and smooth leafy layers.",
+      "quantity": "500 Gm"
+    },
+    {
+      "_id": "5b792cf6e0e16b16de568773",
+      "name": "Brinjal",
+      "category": "veg",
+      "price": 36,
+      "description": "A hybrid variety, Green round Brinjals are attractive glossy green coloured that are round to oval in shape. ",
+      "quantity": "1 Kg"
+    },
+    {
+      "_id": "5b792b3ce0e16b16de568771",
+      "name": "Bottle Gourd-Dudhi Bhopla",
+      "category": "veg",
+      "price": 15,
+      "description": "With the common household name 'Lauki', Bottle gourds come in different shapes and sizes. Considered as one of the healthiest vegetables around, the flesh of bottle gourds are full of water and taste slightly bitter.",
+      "quantity": "500 Gm"
+    },
+    {
+      "_id": "5b792f08e0e16b16de568774",
+      "name": "Cheese - Mascarpone",
+      "category": "Bakery",
+      "price": 211,
+      "description": "La Cremella Mascarpone is an extremely fresh - thick - velvety cream with a spreadable consistency.This delightful variant is 100% vegetarian and naturally sweet with a creamy-tangy flavour.",
+      "quantity": "200 gm"
+    },
+    {
+      "_id": "5b792ff8e0e16b16de568777",
+      "name": "Parle Rusk - Milk",
+      "category": "Bakery",
+      "price": 25,
+      "description": "Parle premium milk rusk with real milk taste. Good with tea and crunchy time",
+      "quantity": "1 Pack"
+    },
+    {
+      "_id": "5b792fbee0e16b16de568776",
+      "name": "Britannia Cakes - Choco Chill",
+      "category": "Bakery",
+      "price": 15,
+      "description": "These 100% vegetarian treats literally melt in your mouth. Britannia is a brand that is well known in the world of confectionary treats like cakes, biscuits, cookies and even other savouries and snacks.",
+      "quantity": "60 Gm"
+    },
+    {
+      "_id": "5b79306ce0e16b16de568778",
+      "name": "Amul Taaza Toned Milk",
+      "category": "Bakery",
+      "price": 60,
+      "description": "Known for its dairy, confectionary and other products, Amul is one of the best brands in the Indian food industry. It brings in pure products that are also filled with flavour and good health.",
+      "quantity": "1 Ltr"
+    }
+  ],
+  "message": null
+}

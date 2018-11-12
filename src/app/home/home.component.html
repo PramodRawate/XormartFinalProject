@@ -1,0 +1,70 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/xormart.jpg" width="150" height="50" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <a routerLink="/login" (click)="logout()" style="float: right;">
+                    <img src="../../assets/logout.png" height="50px" width="50px">
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a routerLink="/cart" style="float: right;">
+                    <img src="../../assets/cart.png" height="50px" width="50px">
+                </a>
+            </span>
+        </div>
+    </nav>
+    
+    <div class="sidenav">
+        <a href="#about">Categories</a>
+        <div class="pull-right">
+            <div class="btn" (click)="filterFruits('fruit')">Fruits</div>
+            <br>
+            <div class="btn " (click)="filterFruits('Bakery')">Bakery</div>
+            <br>
+            <div class="btn " (click)="filterFruits('veg')">Vegetables</div>
+        </div>
+    
+    </div>
+    
+    <div class="">
+        <div class="home-container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div *ngFor="let fruit of filteredFruits">
+                    <div class="card">
+                        <div>
+                            <span class="badge badge-secondary xr-category">{{fruit.category}}</span>
+                        </div>
+                        <img class="card-img-top" src="../../assets/fruits/{{fruit.name}}.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">{{ fruit.name }}</h6>
+                            <!-- <div class="card-text">{{ fruit.category }}</div> -->
+                            <div class="card-text">Rs. {{ fruit.price }}</div>
+                            <span class="btn btn-primary" id="{{fruit._id}}" (click)="addtocart($event)">Add to Cart</span>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

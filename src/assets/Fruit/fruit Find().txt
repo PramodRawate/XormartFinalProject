@@ -1,0 +1,68 @@
+> db.product.find({"category":"fruit"}).pretty()
+{
+        "_id" : ObjectId("5b7543174748588debb5d651"),
+        "name" : "Pomegranate",
+        "category" : "fruit",
+        "price" : 99,
+        "description" : "Pomegranate Kesar has a vibrant, soft and shiny ruby-red skin.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b7543174748588debb5d653"),
+        "name" : "Banana",
+        "category" : "fruit",
+        "price" : 40,
+        "description" : "Relish the soft, buttery texture of Robusta bananas that are light green and have a great fragrance and taste",
+        "quantity" : "12Pcs"
+}
+{
+        "_id" : ObjectId("5b7543174748588debb5d650"),
+        "name" : "Apple",
+        "category" : "fruit",
+        "price" : 139,
+        "description" : "The bright red coloured and heart shaped Washington apples are crunchy, juicy and slightly sweet.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b7543174748588debb5d652"),
+        "name" : "Pear",
+        "category" : "fruit",
+        "price" : 249,
+        "description" : "Green Pear includes white or cream-colored flesh.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b7926891943a339959ddea9"),
+        "name" : "Orange",
+        "category" : "fruit",
+        "price" : 115,
+        "description" : "An assortment of imported oranges, which make for an ideal gift during the festive season or even for making desserts and juices.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b79278c1943a339959ddeab"),
+        "name" : "Guava/Peru",
+        "category" : "fruit",
+        "price" : 100,
+        "description" : "Savour the green guavas along with hard, pale yellow edible seeds. The off-white flesh is crunchy and mildly sweet with very good fragrance.",
+        "quantity" : "1 Kg"
+}
+{
+        "_id" : ObjectId("5b79286e1943a339959ddead"),
+        "name" : "Grapes - Red",
+        "category" : "fruit",
+        "price" : 99,
+        "description" : "Ruby-coloured red globe grapes are uniquely large, round and good quality grapes. They have a crunchy skin, fleshy pulp and a pinkish tinge in colour. The grapes have mil
+d sweetness and taste, but these grapes are not as tangy as flame seedless or as sweet as Thompson seedless.",
+        "quantity" : "250 Gm"
+}
+{
+        "_id" : ObjectId("5b7928a81943a339959ddeae"),
+        "name" : "Kiwi - Green",
+        "category" : "fruit",
+        "price" : 34.5,
+        "description" : "Kiwis are oval shaped with a brownish outer skin. The flesh is bright green and juicy with tiny, edible black seeds. With its distinct sweet-sour taste and a pleasant sme
+ll, it tastes like strawberry and honeydew melon. ",
+        "quantity" : "3 Pcs"
+}
+>

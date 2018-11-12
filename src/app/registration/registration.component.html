@@ -1,0 +1,132 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="registration-container">
+    <div class="login-page" id="logg">
+      <div >
+        <img class="brand-icon" src="../../assets/xormart.jpg" alt="">
+      </div><br>
+    <div class="form">
+      <form class="login-form"  #formdata="ngForm" (ngSubmit)="createNewUser(formdata.value)">
+        <!---heading---->
+        <b>  
+        <header class=" heading "> Registration-Form</header>
+        </b>
+        <hr>
+        <!---Form starting---->
+        <div class="row ">
+          <!--- For First Name---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="firstname ">First Name<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="text " name="fname" placeholder="Enter your First Name " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!--- For Last Name---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="lastname ">Last Name<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="text " name="lname" id="lname " placeholder="Enter your Last Name " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!--- For Address---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="address ">Address<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="text " name="address" id="address " placeholder="Enter your address " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!--- For Contact---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="contact ">Contact<!--   <b><b>   --></label>
+              </div>
+
+              <div class="col-xs-8 ">
+                <input type="number " name="contact" id="contact " placeholder="Enter your Contact Number" ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!-----For email---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="mail ">Mail<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="email " name="email" id="email " placeholder="Enter your email " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!-----For Username---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="username ">UserName<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="address " name="username" id="username " placeholder="Enter username " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!-----For Password---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="pass ">Password<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="password " name="password" id="password " placeholder="Enter your Password " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!-----For Confirm password---->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 ">
+                <label for="cpass ">Password<!--   <b><b>   --></label>
+              </div>
+              <div class="col-xs-8 ">
+                <input type="password " name="cpassword" id="cpassword " placeholder="Re-Enter your password here " ngModel/>
+              </div>
+            </div>
+          </div>
+  
+          <!-----------For Gender-------->
+          <div class="col-sm-12 ">
+            <div class="row ">
+              <div class="col-xs-4 female "></div>
+            </div>
+            <div class="col-sm-12 ">
+              <button class="btn btn-warning ">Submit</button>
+              <a href="login" (click)=goToLogin()>Cancel</a>
+            </div>
+          </div>
+  
+        </div><!--class="row" ends here-->
+  
+      </form>
+    </div>
+    </div>
+    </div>
