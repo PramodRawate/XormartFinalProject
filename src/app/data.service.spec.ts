@@ -43,26 +43,26 @@ describe('DataService', () => {
     });
 
 
-    it('should validate user and get MongoDb response', fakeAsync(
-        inject([
-            XHRBackend,
-            DataService
-        ],(mockBackend:XHRBackend,dataservice:DataService) => {
-          
-            const expectedUrl = '/api/validate';
-            mockBackend
+    
+
+    beforeEach(inject([DataService],(ds:DataService) => {
+        dataservice=ds;
+        spyOn(DataService.prototype,'getSessionStorage').and.returnValue('promodk');
+    }))
+
+        it('should get session storage and return user name',() => {
+        // expect(dataservice.getSessionStorage()).toEqual('promodk');
+            expect(dataservice.getSessionStorage()).toEqual('promodk');
         })
-    ))
 });
 
-
-    //  *********** Add this after beforeEach **********************
-    // beforeEach(inject([DataService],(ds:DataService) => {
-    //     dataservice=ds;
-    //     spyOn(DataService.prototype,'getSessionStorage').and.returnValue('promodk');
-    // }))
-
-    //     it('should get session storage and return user name',() => {
-    //     // expect(dataservice.getSessionStorage()).toEqual('promodk');
-    //         expect(dataservice.getSessionStorage()).toEqual('promodk');
-    //     })
+// it('should validate user and get MongoDb response', fakeAsync(
+//     inject([
+//         XHRBackend,
+//         DataService
+//     ],(mockBackend:XHRBackend,dataservice:DataService) => {
+      
+//         const expectedUrl = '/api/validate';
+//         mockBackend
+//     })
+// ))
