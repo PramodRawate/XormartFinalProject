@@ -78,6 +78,7 @@
             "styles": [
               "src/styles.css"
             ],
+            "codeCoverage": true,
             "scripts": [],
             "assets": [
               "src/favicon.ico",
